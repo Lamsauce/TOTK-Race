@@ -1,0 +1,10 @@
+* {
+    color: white;
+    background-color: black;
+    font-family: roboto;
+    margin-left: 5px;
+}
+
+input[type=checkbox]:checked + label.strikethrough {
+    text-decoration:line-through;
+}
